@@ -1,4 +1,4 @@
-** start of main.py **
+# start of main.py
 
 def hex_to_decimal(hex):
     i = 0
@@ -28,5 +28,5 @@ def hex_to_decimal(hex):
 
     return base10
 
-** end of main.py **
+# end of main.py
 
