@@ -1,0 +1,42 @@
+/* start of styles.css */
+
+* {
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.sub-item-link {
+  text-decoration: none;
+  color: purple;
+}
+
+.sub-item-link:visited {
+  color: violet;
+}
+
+.sub-item-link:hover {
+  color: pink;
+}
+
+.sub-item-link:focus {
+  outline: solid skyblue;
+}
+
+.sub-item-link:active {
+  color: skyblue;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.todo-list {
+  border: 1px white solid;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* end of styles.css */
