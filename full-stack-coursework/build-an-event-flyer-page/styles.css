@@ -1,0 +1,28 @@
+/* start of styles.css */
+
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  padding: 50px 0px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0px auto;
+  width: 90vw;
+  padding: 50px 0px;
+  min-height: calc(100vh - 100px);
+}
+
+hr {
+  width: 95%;
+}
+
+/* end of styles.css */
