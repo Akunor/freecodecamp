@@ -35,4 +35,3 @@ def check_strength(password):
     return strength
 
 # end of main.py
-
