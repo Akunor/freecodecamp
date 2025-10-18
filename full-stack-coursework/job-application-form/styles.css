@@ -1,0 +1,71 @@
+/* start of styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 400px;
+  padding: 25px;
+  border: whitesmoke solid 2px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+h1 {
+  max-width: 100%;
+  text-align: center;
+}
+
+.radio-group input[type="radio"] {
+  display: inline-block;
+}
+
+input[type="radio"]:checked + label {
+  color: green;
+}
+
+input:not([type="radio"]), select, textarea {
+  width: 100%;
+  display: block;
+  margin: 0 auto 5% auto;
+}
+
+.message-label {
+  display: block;
+  margin-top: 5%;
+}
+
+input:focus, textarea:focus {
+  border-color: blue;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+  border-color: red;
+} 
+
+input:valid, select:valid, textarea:valid {
+  border-color: green;
+}
+
+button {
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  background-color: darkgray;
+  transform: scale(1.1)
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: blue;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 4px 0px black;
+}
+
+input:first-of-type {
+  border-radius: 5px;
+}
+
+/* end of styles.css */
