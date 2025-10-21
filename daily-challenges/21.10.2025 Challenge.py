@@ -1,3 +1,5 @@
+# start of main.py
+
 def adjust_thermostat(current_f, target_c):
     target_f = (target_c * 1.8) + 32
     action = ''
@@ -9,5 +11,5 @@ def adjust_thermostat(current_f, target_c):
         action = 'Hold'
     return action
 
-if __name__ == "__main__":
-    print(adjust_thermostat(72, 18))
+# end of main.py
+
