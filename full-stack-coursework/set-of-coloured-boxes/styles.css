@@ -1,0 +1,33 @@
+/* start of styles.css */
+
+body {
+  background-color: #f4f4f4
+}
+
+.color-box {
+  width: 200px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.color1 {
+  background-color: #FF6F3A
+}
+
+.color2 {
+  background-color: rgb(20, 130, 20)
+}
+
+.color3 {
+  background-color: blue;
+}
+
+.color4 {
+  background-color: hsl(300, 76%, 72%)
+}
+
+.color5 {
+  background-color: rgba(106, 90, 205, 50%)
+}
+
+/* end of styles.css */
