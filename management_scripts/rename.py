@@ -1,7 +1,7 @@
 import os
 import datetime
 
-today = datetime.datetime.now().strftime('%d.%m.%Y')
+today = datetime.datetime.now().strftime('%Y.%m.%d')
 
 
 

@@ -11,17 +11,18 @@ Contains HTML projects and exercises from freeCodeCamp's full-stack development 
 - **Responsive Design**: Movie review pages, modern web layouts and more
 
 ### Daily Challenges
-A collection of daily programming challenges and coding exercises to maintain consistent practice and skill development.
+A collection of daily programming challenges and coding exercises to maintain consistent practice and skill development, particularly in Python.
 
 ## Learning Goals
-- Master full-stack web development fundamentals
+- Master full-stack web development skills
 - Build responsive, accessible web applications
 - Develop problem-solving skills through daily coding challenges
 - Create a portfolio of diverse web projects
+- Reinforce Python learning from other projects
 
 ## Getting Started
 Each project is self-contained and can be opened directly in a web browser. More advanced projects across the course will be contained within their own folders with separate files for JavaScript, CSS, HTML and more.
 
 ---
-*This repository serves as a journal of my learning experiences through freeCodeCamp's curriculum, documenting progress and showcasing practical coding skills.*
+*This repository serves as a journal of my learning experiences through freeCodeCamp's platform, documenting progress and showcasing practical coding skills.*
 
