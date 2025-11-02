@@ -21,3 +21,13 @@ def verify(message, key, signature):
 
 # end of main.py
 
+# Simplified version with concatenation:
+
+def verify(message, key, signature):
+    value = 0
+    encoding = {char: i + 1 for i, char in enumerate(string.ascii_lowercase)}
+    encoding.update({char: i + 27 for i, char in enumerate(string.ascii_uppercase)})
+
+    value = sum(encoding.get(char, 0) for char in message + key if char.isalpha())
+
+    return value == signature
