@@ -1,0 +1,56 @@
+/* start of styles.css */
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: beige;
+}
+.form-container {
+  background-color: white;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin: 10% auto
+}
+
+h2 {
+  margin: 5px auto;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+label {
+  margin: 10px 0 5px 8%;
+  color: skyblue;
+  display: block;
+}
+
+input, textarea {
+  width: 80%;
+  margin: 0 auto 10px auto;
+  padding: 5px;
+  display: block;
+}
+
+button {
+  background-color: skyblue;
+  font-size: 1.25em;
+  color: white;
+  width: 80%;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+
+/* end of styles.css */
