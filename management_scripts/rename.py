@@ -6,6 +6,10 @@ today = datetime.datetime.now().strftime('%Y.%m.%d')
 undefined_count = 0
 
 for file in os.listdir('./daily-challenges/'):
+    if file == 'undefined.txt' and undefined_count > 0:
+        print('Additional undefined.txt file(s) found in daily-challenges folder.')
+        break
+    
     if file == 'undefined.txt' and undefined_count == 0:
         old_path = f'./daily-challenges/{file}'
         new_path = f'./daily-challenges/{today} Challenge.py'
@@ -22,10 +26,6 @@ for file in os.listdir('./daily-challenges/'):
                 lines[i] = '# end of main.py\n'
         with open(new_path, 'w') as f:
             f.writelines(lines)
-
-    if file == 'undefined.txt' and undefined_count > 0:
-        print('Additional undefined.txt file(s) found in daily-challenges folder.')
-        break
 
 if undefined_count == 0:
     print('No undefined.txt file found in daily-challenges folder.')
