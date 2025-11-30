@@ -15,7 +15,7 @@ for file in os.listdir('./daily-challenges/'):
         new_path = f'./daily-challenges/{today} Challenge.py'
         os.rename(old_path, new_path)
         undefined_count += 1
-    # insert code here to replace the incorrect comment markings before 'start of main.py' and before 'end of main.py' with #'s
+        
         with open(new_path, 'r') as f:
             lines = f.readlines()
 
