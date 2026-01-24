@@ -1,4 +1,4 @@
-** start of main.py **
+# start of main.py
 
 def get_bingo_letter(n):
     bingo_letter = ''
@@ -16,5 +16,5 @@ def get_bingo_letter(n):
 
     return bingo_letter
 
-** end of main.py **
+# end of main.py
 
