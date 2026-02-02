@@ -1,7 +1,8 @@
 import os
 import datetime
 
-today = datetime.datetime.now().strftime('%Y.%m.%d')
+today_date = datetime.datetime.now()
+today = today_date.strftime('%Y.%m.%d')
 
 undefined_count = 0
 
@@ -29,4 +30,14 @@ for file in os.listdir('./daily-challenges/'):
 
 if undefined_count == 0:
     print('No undefined.txt file found in daily-challenges folder.')
+
+response =input('Is the file ready to be pushed? (y/n)')
+if response == 'y':
+    print('Pushing file to GitHub...')
+    os.system('git add .')
+    os.system(f'git commit -m "Daily Challenge {today_date.strftime("%-d")}{"st" if today_date.day in [1, 21, 31] else "nd" if today_date.day in [2, 22] else "rd" if today_date.day in [3, 23] else "th"} of {today_date.strftime("%B")} {today_date.year}"')
+    os.system('git push origin main')
+    print('File pushed to GitHub.')
+else:
+    print('File not pushed to GitHub.')
 
