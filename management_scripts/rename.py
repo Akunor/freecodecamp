@@ -31,8 +31,8 @@ for file in os.listdir('./daily-challenges/'):
 if undefined_count == 0:
     print('No undefined.txt file found in daily-challenges folder.')
 
-response =input('Is the file ready to be pushed? (y/n)')
-if response == 'y':
+response =input('Is the file ready to be pushed? (y/n) ')
+if response == 'y' or response == 'Y':
     print('Pushing file to GitHub...')
     os.system('git add .')
     os.system(
