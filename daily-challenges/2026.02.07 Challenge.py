@@ -13,4 +13,3 @@ def get_landing_stance(start_stance, rotation):
         return start_stance
 
 # end of main.py
-
